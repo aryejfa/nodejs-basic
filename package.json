@@ -1,0 +1,26 @@
+{
+  "name": "npm-basic",
+  "version": "1.0.0",
+  "description": "npm learn basic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "ejfa",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "formidable": "^2.0.1",
+    "moment": "^2.29.3",
+    "mv": "^2.1.1",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.7.5"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
